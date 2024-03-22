@@ -35,7 +35,6 @@ const TranscriptionForm = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(form);
     setForm(initialState);
   };
   return (
